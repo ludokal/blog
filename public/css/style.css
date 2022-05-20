@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 :root {
     --font-family: 'Open Sans', Sans-serif;
-    --primary: #487eb0;
+    --primary: #8e44ad;
     --dark: #353b48;
     --danger : #e74c3c;
     --backgound-light : #ecf0f1;
@@ -76,38 +76,7 @@ header{
     min-height: 40rem;
     box-shadow: var(--box-shadow);
 }
-.todo-container h1{
-    text-align: center;
-}
-.todo-form{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-}
-.todo-form input{
-    flex: 1;
-    margin-right: 0.5rem;
-    border: var(--border);
-    border-radius: 3px;
-    padding: 1rem 1.5rem;
-    font-size: 1.9rem;
-}
-/*todo list*/
 
-.todo-item{
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem 1.5rem;
-}
-.todo-item:nth-child(odd){
-    background-color: var(--backgound-light);
-}
-.todo-name{
-    flex: 1;
-    margin-right: 5px;
-}
 
 /*btn*/
 
